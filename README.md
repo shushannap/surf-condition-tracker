@@ -35,6 +35,7 @@ This Surf Condition Tracker Microservice allows users to request surf condition 
 
 ### Running the Microservice
 
+### Requesting Data
 1. Start the producer service:
     ```bash
     python3 producer.py
@@ -63,8 +64,10 @@ def main():
     print(response)
 ```
 
-<br><br>
+### Receiving Data
 
+After making the request, the consumer service will receive and print the data returned by the producer.
+ <br><br>
 ## UML Diagram
 ![UML Diagram](Surf-UML.png)
 The above image was created using PlantUML.
