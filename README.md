@@ -61,14 +61,15 @@ def main():
     response = request_swell_data(latitude, longitude, threshold)
     print("Response received:")
     print(response)
+```
 
-
+<br><br>
 
 ![UML Diagram](Surf-UML.png)
+The above image was created using PlantUML.
 
 
-
-
+<br><br><br>
 
 ## Get Latitude and Longitude by City Name (OPTIONAL)
 
@@ -93,7 +94,7 @@ To make it easier for users to get the latitude and longitude based on city name
 
 2. Run the script to get the latitude and longitude for a city:
     ```bash
-    python3 geocode.py
+    python3 city_lookup.py
     ```
 
 3. Example output:
